@@ -1,0 +1,55 @@
+.appContainer {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #001529;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logoBox {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-right: 1px solid gray;
+    box-sizing: border-box;
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+    span {
+      font-size: 28px;
+      color: white;
+      margin-left: 24px;
+    }
+  }
+  .setBox {
+    width: 120px;
+    span {
+      color: white;
+    }
+    span:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.contentBox {
+  display: flex;
+  justify-content: space-between;
+  .hideBtn {
+    width: 300px;
+    height: 40px;
+    background-color: #1d2327;
+    border: none;
+    span {
+      color: white;
+    }
+  }
+  .aside {
+    height: calc(100vh - 64px) !important;
+  }
+}
